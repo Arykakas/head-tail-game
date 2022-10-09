@@ -1,0 +1,52 @@
+.grandparent-element {
+  display: flex;
+  gap: 0.5rem;
+
+  margin: 20px 0;
+}
+
+.head-tail-content .purple-btn::after {
+  background-color: #dcbaff;
+}
+
+.basic {
+  width: 24px;
+  border-radius: 50%;
+  height: 24px;
+  text-align: center;
+  background: transparent;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.basic:hover {
+  background: #bab6b691;
+}
+
+.error {
+  border: 1px solid red;
+  padding: 12px;
+  box-sizing: border-box;
+  width: fit-content;
+  color: red;
+}
+
+form {
+  display: flex;
+  gap: 5rem;
+  align-items: baseline;
+}
+
+select {
+  width: 246px;
+  height: 49px;
+  outline: none;
+  border-radius: 0px;
+  padding: 11px 14px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+select > option {
+  border-radius: 20px;
+}
